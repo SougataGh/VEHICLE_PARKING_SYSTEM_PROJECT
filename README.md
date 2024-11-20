@@ -34,4 +34,5 @@ The project is structured into several classes that follow the Single Responsibi
 - **Duration_Calculator**: Calculates the duration for which a vehicle has been parked.
 - **Parkable**: Interface that provides methods for parking and removing vehicles.
 - **Helmet_Storage**: Interface for managing helmet storage related to bike parking.
+- **Chargeable**: Interface for charging functionality for vehicles.
 - **Time**: Represents time with hour, minute, and second attributes, used for tracking entry and exit times of vehicles.
