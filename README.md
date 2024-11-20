@@ -26,6 +26,8 @@ The project is structured into several classes that follow the Single Responsibi
 - **Card_Payment_Processor**: Concrete implementation of card payment processing.
 - **Vehicle_Parking_Manager**: Manages user interactions and overall parking operations.
 - **Vehicle**: Represents a generic vehicle with properties like name, plate number, and charges.
+- **Car**: Represents a car with specific attributes, inheriting from the Vehicle class.
+- **Bike**: Represents a bike with attributes inherited from the Vehicle class.
 - **Show_Vacant_Places**: Displays the vacant spots in the parking lot.
 - **Show_All_Vehicles**: Displays all vehicles currently parked in the parking lot.
 - **Charge_Calculator**: Calculates charges based on time and vehicle type.
