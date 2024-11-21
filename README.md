@@ -1,4 +1,4 @@
-# VEHICLE_PARKING_SYSTEM_PROJECT #
+# VEHICLE_PARKING_SYSTEM_PROJECT 
 ## Overview
 The Vehicle Parking System is a C++ application designed to manage the parking of different types of vehicles, including cars and bikes. This system provides functionalities such as parking, unparking vehicles, processing payments, and displaying parked vehicles and vacant places.
 
