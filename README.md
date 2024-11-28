@@ -16,11 +16,12 @@ The Vehicle Parking System is a C++ application designed to manage the parking o
 - Standard Template Library (STL)
 ## Structure
 The project is structured into several classes that follow the Single Responsibility Principle (SRP) and use various design patterns:
-
-- **Vehicle**: Represents a generic vehicle with properties like name, plate number, entry time,exit time and charge per minute.
-- **Car**: Represents a car with specific attributes, inheriting from the Vehicle class.
-- **Bike**: Represents a bike with attributes inherited from the Vehicle class.
-- **Time**: Represents time with hour, minute, and second attributes, used for tracking entry and exit times of vehicles.
+- **VEHICLES :**
+  - **Vehicle**: Represents a generic vehicle with properties like name, plate number, entry time,exit time and charge per minute.
+  - **Car**: Represents a car with specific attributes, inheriting from the Vehicle class.
+  - **Bike**: Represents a bike with attributes inherited from the Vehicle class.
+- **TIME_MANAGEMENT :**
+  - **Time**: Represents time with hour, minute, and second attributes, used for tracking entry and exit times of vehicles.
 - **Base_Parking_Lot**: Abstract base class defining common functionalities for parking lots.
 - **Parkable**: Interface that provides methods for parking and removing vehicles.
 - **Chargeable**: Interface for charging functionality for vehicles.
